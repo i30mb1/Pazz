@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pazz</string>
+    <string name="app_name">PazV</string>
     <string name="established">Done!</string>
     <string name="open">Open</string>
     <string-array name="hero_responses_menu">
