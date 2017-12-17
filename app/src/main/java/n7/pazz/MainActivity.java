@@ -119,8 +119,11 @@ public class MainActivity extends AppCompatActivity {
             OutputStream out=null;
             try {
                 in = assetManager.open("1/"+url);
+                File path = new File(Environment.getExternalStorageDirectory().getPath()+File.separator+getString(R.string.app_name));
+                if(!path.exists()) path.mkdirs();
 
                 File outFile = new File(Environment.getExternalStorageDirectory().getPath()+File.separator+getString(R.string.app_name),url);
+
                 out = new FileOutputStream(outFile);
                 copyFile(in, out);
             } catch (IOException e) {
