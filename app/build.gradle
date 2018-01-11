@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "n7.pazz"
         minSdkVersion 16
-        targetSdkVersion 22
-        versionCode 4
-        versionName "1.4"
+        targetSdkVersion 26
+        versionCode 5
+        versionName "1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
